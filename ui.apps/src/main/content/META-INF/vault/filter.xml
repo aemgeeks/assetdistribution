@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/assetdistribution/clientlibs"/>
+    <filter root="/apps/assetdistribution/components"/>
+    <filter root="/apps/assetdistribution/i18n"/>
+    <filter root="/apps/msm/assetdistribution_blueprint" mode="merge"/>
+</workspaceFilter>
