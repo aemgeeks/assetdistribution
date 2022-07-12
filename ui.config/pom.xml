@@ -21,37 +21,40 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.asset.distribution</groupId>
-        <artifactId>asset-distribution</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>com.assetdistribution</groupId>
+        <artifactId>assetdistribution</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>asset-distribution.ui.config</artifactId>
+    <artifactId>assetdistribution.ui.config</artifactId>
     <packaging>content-package</packaging>
-    <name>assetdistribution Sites Project - UI config</name>
-    <description>UI config package for assetdistribution Site</description>
+    <name>Asset Distribution - UI config</name>
+    <description>UI config package for Asset Distribution</description>
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
     <!-- ====================================================================== -->
     <build>
-        <sourceDirectory>src/content/jcr_root</sourceDirectory>
+        <sourceDirectory>src/main/content/jcr_root</sourceDirectory>
 
         <plugins>
             <plugin>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
                     <packageType>container</packageType>
                     <showImportPackageReport>false</showImportPackageReport>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
-                            <groupId>com.asset.distribution</groupId>
-                            <artifactId>asset-distribution.ui.apps.structure</artifactId>
+                            <groupId>com.assetdistribution</groupId>
+                            <artifactId>assetdistribution.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                 </configuration>
@@ -65,8 +68,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.asset.distribution</groupId>
-            <artifactId>asset-distribution.ui.apps.structure</artifactId>
+            <groupId>com.assetdistribution</groupId>
+            <artifactId>assetdistribution.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

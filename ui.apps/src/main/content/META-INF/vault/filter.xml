@@ -3,5 +3,6 @@
     <filter root="/apps/assetdistribution/clientlibs"/>
     <filter root="/apps/assetdistribution/components"/>
     <filter root="/apps/assetdistribution/i18n"/>
+    <filter root="/apps/sling" />
     <filter root="/apps/msm/assetdistribution_blueprint" mode="merge"/>
 </workspaceFilter>

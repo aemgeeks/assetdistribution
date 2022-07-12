@@ -2,18 +2,20 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/assetdistribution/settings/wcm/templates/landing-page-template,/conf/assetdistribution/settings/wcm/templates/article-page-template,/conf/assetdistribution/settings/wcm/templates/content-page-template,/conf/assetdistribution/settings/wcm/templates/adventure-page-template]"
+        cq:allowedTemplates="[/conf/assetdistribution/settings/wcm/templates/(?!xf-).*]"
         cq:conf="/conf/assetdistribution"
-        cq:lastModified="{Date}2021-04-27T20:19:05.296-08:00"
-        cq:lastModifiedBy="admin"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="assetdistribution Site"
-        sling:configRef="/conf/assetdistribution"
-        sling:resourceType="assetdistribution/components/page"
         cq:redirectTarget="/content/assetdistribution/us/en"
-        cq:template="/conf/assetdistribution/settings/wcm/templates/landing-page-template">
+        cq:template="/conf/assetdistribution/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Asset Distribution"
+        sling:configRef="/conf/assetdistribution"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="assetdistribution/components/page">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
     </jcr:content>
+    <language-masters/>
+    <us/>
 </jcr:root>

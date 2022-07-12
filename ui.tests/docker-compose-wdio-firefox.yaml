@@ -34,7 +34,8 @@ services:
     volumes:
       - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
-    image: 'com.asset.distribution-asset-distribution.ui.tests/ui.tests:latest'
+      - 'shared:/usr/src/app/assets'
+    image: 'com.assetdistribution-assetdistribution.ui.tests/ui.tests:latest'
   selenium-firefox:
     image: 'selenium/standalone-firefox-debug'
     ports:

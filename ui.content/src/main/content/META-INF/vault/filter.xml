@@ -2,6 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/assetdistribution" mode="merge"/>
     <filter root="/content/assetdistribution" mode="merge"/>
-    <filter root="/content/dam/assetdistribution" mode="merge"/>
+    <filter root="/content/dam/assetdistribution/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/assetdistribution" mode="merge"/>
 </workspaceFilter>

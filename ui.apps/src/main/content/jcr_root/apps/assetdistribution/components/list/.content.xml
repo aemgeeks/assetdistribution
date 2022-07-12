@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="List"
     sling:resourceSuperType="core/wcm/components/list/v3/list"
-    componentGroup="assetdistribution.Content"/>
+    componentGroup="Asset Distribution - Content"/>

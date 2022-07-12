@@ -18,25 +18,23 @@
 <!--
  | DO NOT MODIFY
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.asset.distribution</groupId>
-        <artifactId>asset-distribution</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>com.assetdistribution</groupId>
+        <artifactId>assetdistribution</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>asset-distribution.ui.tests</artifactId>
-    <name>assetdistribution Sites Project - UI Tests</name>
-    <description>UI Tests for assetdistribution Sites Project</description>
-    <packaging>pom</packaging>
-   
+    <artifactId>assetdistribution.ui.tests</artifactId>
+    <name>Asset Distribution - UI Tests</name>
+    <description>UI Tests for Asset Distribution</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <frontend-maven-plugin.version>1.11.3</frontend-maven-plugin.version>
         <node.version>v12.16.3</node.version>
         <npm.version>6.14.4</npm.version>
 
@@ -66,11 +64,6 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.3.0</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>3.2.0</version>
                 </plugin>
@@ -94,7 +87,6 @@
                     <descriptors>
                         <descriptor>${project.basedir}/assembly-ui-test-docker-context.xml</descriptor>
                     </descriptors>
-                    <tarLongFileMode>posix</tarLongFileMode>
                 </configuration>
                 <executions>
                     <execution>
