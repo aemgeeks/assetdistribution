@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/assetdistribution" mode="merge"/>
+	<filter root="/conf/asset-share-commons/settings/wcm/templates/search-template1" mode="replace"/>
+	<filter root="/conf/asset-share-commons/settings/wcm/policies" mode="replace"/>
     <filter root="/content/assetdistribution" mode="merge"/>
     <filter root="/content/dam/assetdistribution/asset.jpg" mode="merge"/>
+	<filter root="/content/dam/assetdistribution/searchbar-background.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/assetdistribution" mode="merge"/>
 </workspaceFilter>
