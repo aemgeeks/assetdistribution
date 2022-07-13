@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
-    granite:loginPath="/content/assetdistribution/language-masters/login"
-    jcr:mixinTypes="[granite:AuthenticationRequired,rep:CugMixin]"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/conf/asset-share-commons/settings/wcm/templates/search-template1,/conf/assetdistribution/settings/wcm/templates/.*]"
-        cq:lastModified="{Date}2022-07-13T13:54:21.010+05:30"
+        cq:lastModified="{Date}2022-07-13T14:41:58.570+05:30"
         cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/assetdistribution/us/en"
         cq:template="/conf/assetdistribution/settings/wcm/templates/page-content"
@@ -14,14 +13,12 @@
         sling:resourceType="assetdistribution/components/page"
         hideInNav="true">
         <cq:featuredimage
-            jcr:lastModified="{Date}2022-07-13T13:54:21.006+05:30"
+            jcr:lastModified="{Date}2022-07-13T14:41:58.561+05:30"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/image/v3/image"
             altValueFromDAM="false"/>
     </jcr:content>
     <en/>
-    <search-light-page/>
     <login/>
-    <rep:cugPolicy/>
 </jcr:root>

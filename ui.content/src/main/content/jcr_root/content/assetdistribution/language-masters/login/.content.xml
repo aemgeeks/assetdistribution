@@ -34,7 +34,7 @@
                         continueLabel="Continue"
                         loginLabel="Password"
                         passwordLabel="Password"
-                        redirectTo="/content/assetdistribution/language-masters/search-light-page"
+                        redirectTo="/content/assetdistribution/language-masters/en/search-light-page"
                         sectionLabel="Log in:"
                         usernameLabel="Username"/>
                 </container>
