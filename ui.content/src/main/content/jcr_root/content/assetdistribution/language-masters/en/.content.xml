@@ -6,7 +6,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2022-07-13T14:42:46.271+05:30"
+        cq:lastModified="{Date}2022-07-15T14:53:39.215+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/assetdistribution/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -27,13 +27,79 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="assetdistribution/components/container"
                     layout="responsiveGrid">
-                    <teaser
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                    <teaser_2045313229
+                        cq:styleIds="[1657864965542]"
+                        jcr:created="{Date}2022-07-15T11:02:06.299+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T11:05:26.216+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
+                        jcr:title="Find the perfect stock asset for your next creative project"
+                        sling:resourceType="assetdistribution/components/teaser"
+                        alt="Alt hero text"
+                        altValueFromDAM="false"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/assetdistribution/homepage-hero-3.jpg"
+                        id="teaser-hero"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <teaser_873171230
+                        cq:styleIds="[1657864982723]"
+                        jcr:created="{Date}2022-07-15T11:06:43.379+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T11:24:10.988+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Get 10 free Stock images."
+                        sling:resourceType="assetdistribution/components/teaser"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/assetdistribution/banner.jpg"
+                        id="blue-background"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/assetdistribution/language-masters/en/search-light-page"
+                                linkTarget="_self"
+                                text="Start Now"/>
+                        </actions>
+                    </teaser_873171230>
+                    <text
+                        cq:styleIds="[1657865342017]"
+                        jcr:created="{Date}2022-07-15T11:08:53.114+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T11:09:10.505+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="assetdistribution/components/text"
+                        text="&lt;h3>&lt;b>CURATED ASSET COLLECTIONS&lt;/b>&lt;/h3>&#xd;&#xa;&lt;p>Explore diverse collections of our most incredible high-resolution, royalty-free, stock assets&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <teaser
+                        cq:styleIds="[1657865051095]"
+                        jcr:description="&lt;p>Beautiful and inspiring collection of royalty-free stock images.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-07-15T11:16:45.603+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Stock Photos"
                         sling:resourceType="assetdistribution/components/teaser"
                         actionsEnabled="false"
+                        altValueFromDAM="false"
                         descriptionFromPage="false"
+                        fileReference="/content/dam/assetdistribution/1photos.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
                         textIsRich="true"
                         titleFromPage="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -44,12 +110,21 @@
                         </cq:responsive>
                     </teaser>
                     <teaser_copy
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        cq:styleIds="[1657865051095]"
+                        jcr:description="&lt;p>High-impact, royalty-free stock photos for powerful storytelling.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-07-15T11:15:52.746+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
+                        jcr:title="Premium Stock Images"
                         sling:resourceType="assetdistribution/components/teaser"
                         actionsEnabled="false"
+                        altValueFromDAM="false"
                         descriptionFromPage="false"
+                        fileReference="/content/dam/assetdistribution/premium.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
                         textIsRich="true"
                         titleFromPage="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -60,12 +135,21 @@
                         </cq:responsive>
                     </teaser_copy>
                     <teaser_copy_1579324932
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        cq:styleIds="[1657865051095]"
+                        jcr:description="&lt;p>Stunning 4K and HD stock video clips for any motion project.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-07-15T11:15:45.224+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
+                        jcr:title="Stock video footage"
                         sling:resourceType="assetdistribution/components/teaser"
                         actionsEnabled="false"
+                        altValueFromDAM="false"
                         descriptionFromPage="false"
+                        fileReference="/content/dam/assetdistribution/premium3.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
                         textIsRich="true"
                         titleFromPage="false">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -75,15 +159,97 @@
                                 width="4"/>
                         </cq:responsive>
                     </teaser_copy_1579324932>
-                    <helloworld
+                    <text_222474743
+                        jcr:created="{Date}2022-07-15T13:15:07.982+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T13:16:40.857+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="assetdistribution/components/helloworld"
-                        text="lalala :)"/>
+                        sling:resourceType="assetdistribution/components/text"
+                        text="&lt;h2>&lt;b>Browse more stock photo categories&lt;/b>&lt;/h2>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <list
+                        cq:styleIds="[1657865212812]"
+                        jcr:created="{Date}2022-07-15T11:21:33.967+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T11:22:22.490+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="assetdistribution/components/list"
+                        childDepth="1"
+                        displayItemAsTeaser="false"
+                        id="stock-categories"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/assetdistribution/language-masters/en/categories"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <text_2144260810
+                        jcr:created="{Date}2022-07-15T11:26:28.825+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-07-15T11:38:37.709+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="assetdistribution/components/text"
+                        text="&lt;h2>&lt;b style=&quot;font-size: 0.8125rem;&quot;>Premium photos and curated collections&lt;/b>&lt;br>&#xd;&#xa;&lt;/h2>&#xd;&#xa;&lt;p>Explore unique stock assets from world class artists&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <teaser_copy_1273050720
+                        cq:styleIds="[1657865010849]"
+                        jcr:description="&lt;p>&lt;a href=&quot;https://stock.adobe.com/premium?load_type=photos+lp&quot;>&lt;/a>&lt;/p>&lt;p>Discover the enhanced Premium stock photo collection&lt;/p>&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-07-15T11:30:43.097+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Premium collection"
+                        sling:resourceType="assetdistribution/components/teaser"
+                        actionsEnabled="false"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/assetdistribution/card-1.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_copy_1273050720>
+                    <teaser_copy_12730507
+                        cq:styleIds="[1657865010849]"
+                        jcr:description="&lt;p>&lt;a href=&quot;https://stock.adobe.com/collections&quot;>&lt;p>Browse hand-selected photos, vectors, videos, and more&lt;/p>&#xd;&#xa;&lt;/a>&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2022-07-15T11:31:11.718+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Curated collections"
+                        sling:resourceType="assetdistribution/components/teaser"
+                        actionsEnabled="false"
+                        altValueFromDAM="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/assetdistribution/card-2.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        linkURL="/content/assetdistribution/language-masters/en/search-light-page"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_copy_12730507>
                 </container>
             </container>
         </root>
         <cq:featuredimage
-            jcr:lastModified="{Date}2022-07-13T14:42:46.266+05:30"
+            jcr:lastModified="{Date}2022-07-15T14:53:39.205+05:30"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/image/v3/image"
@@ -91,4 +257,5 @@
     </jcr:content>
     <search-light-page/>
     <rep:cugPolicy/>
+    <categories/>
 </jcr:root>

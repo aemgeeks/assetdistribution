@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2022-07-15T11:45:48.622+05:30"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/assetdistribution/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -13,22 +15,42 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="assetdistribution/components/container"
             layout="simple">
+            <button
+                jcr:created="{Date}2022-07-15T11:44:14.471+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-07-15T11:44:48.523+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Asset Distribution"
+                sling:resourceType="assetdistribution/components/button"
+                icon="asset-distribution-logo"
+                id="asset-distribution-logo"
+                linkTarget="_self"
+                linkURL="/content/assetdistribution/language-masters/en"/>
             <navigation
+                jcr:lastModified="{Date}2022-07-15T11:42:27.138+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="assetdistribution/components/navigation"
                 collectAllPages="false"
+                disableShadowing="false"
+                navigationRoot="/content/assetdistribution/language-masters/en"
                 skipNavigationRoot="false"
                 structureDepth="1"
-                structureStart="2"/>
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </navigation>
             <languagenavigation
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="assetdistribution/components/languagenavigation"
                 navigationRoot="/content/assetdistribution"
                 structureDepth="2"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="assetdistribution/components/search"
-                searchRoot="/content/assetdistribution/en"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>
