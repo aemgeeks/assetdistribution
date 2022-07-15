@@ -3,3 +3,18 @@
 .cmp-list__item-link {}
 .cmp-list__item-title {}
 .cmp-list__item-date {}
+.cmp-list__links {
+	margin-bottom : 40px;
+	ul {
+		list-style: none;
+	}
+	li {
+		width: 25%;
+		float: left;
+		display: grid;
+	}
+	.cmp-list__item-link {
+		padding: 10px 0;
+		text-decoration: none;
+	}
+}

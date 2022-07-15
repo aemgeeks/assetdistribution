@@ -4,6 +4,10 @@
 header.experiencefragment {
     padding: .5em 1em;
     border-bottom: 1px solid $color-foreground;
+	
+	#asset-distribution-logo {
+		font-weight: 700;
+	}
 
     @media (prefers-color-scheme: dark) {
         border-bottom-color: $color-foreground-dark;
@@ -32,7 +36,7 @@ header.experiencefragment {
 
     .cmp-container {
         display: grid;
-        grid-template-columns: 4fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
     //== Navigation
@@ -43,7 +47,8 @@ header.experiencefragment {
         list-style: none;
     }
     .cmp-navigation__item--level-0 {
-        display: grid;
+        display: inline-block;
+		padding: 0 20px;
         grid-template-columns: 1fr 3fr;
 
         & > .cmp-navigation__group {
