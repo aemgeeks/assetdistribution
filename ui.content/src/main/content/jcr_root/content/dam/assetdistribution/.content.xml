@@ -2,4 +2,18 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="sling:OrderedFolder">
     <asset.jpg/>
+    <jcr:content
+        cq:conf="/conf/assetdistribution"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Asset Distribution">
+        <folderThumbnail/>
+    </jcr:content>
+    <searchbar-background.jpg/>
+    <homepage-hero-3.jpg/>
+    <_x0031_photos.jpg/>
+    <premium3.jpg/>
+    <premium.jpg/>
+    <banner.jpg/>
+    <card-2.jpg/>
+    <card-1.jpg/>
 </jcr:root>
