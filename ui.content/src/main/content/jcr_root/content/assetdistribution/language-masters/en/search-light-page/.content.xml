@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/asset-share-commons/settings/wcm/templates/search-template1"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Search Light Page"
+        jcr:title="Search Stock Images"
         sling:resourceType="asset-share-commons/components/structure/search-page">
         <config jcr:primaryType="nt:unstructured">
             <actions jcr:primaryType="nt:unstructured">
